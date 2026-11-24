@@ -1,0 +1,11 @@
+<Project>
+  <!--
+    The project lives in Google Drive. Keep bin/obj on the local disk so Drive
+    does not sync (and lock) thousands of build files.
+  -->
+  <PropertyGroup>
+    <TcBuildRoot>$(LOCALAPPDATA)\TypeCorrection-build\$(MSBuildProjectName)\</TcBuildRoot>
+    <BaseOutputPath>$(TcBuildRoot)bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(TcBuildRoot)obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

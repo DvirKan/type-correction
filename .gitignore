@@ -1,0 +1,18 @@
+# Build output (the exe is published as a GitHub Release, not committed)
+dist/
+bin/
+obj/
+publish/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+
+# Google Drive / OneDrive
+*.gdoc
+.~lock*
